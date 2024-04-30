@@ -1,0 +1,109 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.cabecalho-endereco h3 {
+    font-size:16px;
+    margin-bottom: 0px;
+}
+.cabecalho-endereco p {
+    margin-top: 0px;
+}
+
+.marca {
+    width: 75px;
+}
+
+.topo .titulo{
+    line-height: 10px;
+    text-align: right;
+}
+
+.topo .titulo h1{
+    font-size: 10px;
+    text-transform: uppercase;  
+}
+
+.topo .titulo p{
+    font-size: 12px;
+}
+
+.div-principal {
+    position: relative;
+}
+
+.img-folha-rosto {
+    width: 100%;
+    max-height: 450px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+  
+.img-folha-rosto-duas {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.linha-imagens {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.produto-imagem {
+    max-height: 80px;
+    max-width: 80px;
+    margin: 1px 1px;
+}
+
+.tabela {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+th, td {
+    border: 1px solid #404040;
+}
+  
+  
+td {
+    text-align: center;
+    justify-items: center;
+    border: 1px solid #404040;
+}
+
+.linha-final{
+    margin: 10px 0;
+    font-size:12px;
+}
+
+#footer {
+    bottom: 0;
+    border-top: 0.1pt solid #aaa;
+}
+
+#header, #footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    color: #aaa;
+    font-size: 0.9em;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

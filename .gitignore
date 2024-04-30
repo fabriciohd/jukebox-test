@@ -1,0 +1,26 @@
+/node_modules
+/public/hot
+/public/storage
+/public/js
+/public/fonts
+/storage/*.key
+/vendor
+.env
+.env.prod
+.env.backup
+.phpunit.result.cache
+.editorconfig
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.idea
+../.idea
+
+
+*lock.json
+
+#Electron-builder output
+/dist_electron
+
